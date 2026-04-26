@@ -1,12 +1,21 @@
-# Songs Content (MDX Format)
+# Prabhat Samgiita Content
 
-This directory contains all Prabhat Samgiita songs in MDX format with rich metadata and AI-generated tags.
+This repository contains the songs and background images used by the
+[ps.clerk.am](https://ps.clerk.am) web application.
+
+## Layout
+
+```
+.
+├── songs/      # MDX song files (XXXX.mdx)
+└── images/     # Background JPEGs (ps-XXXX.jpg)
+```
 
 ## Quick Start
 
 ### Adding a new song
 
-Create a new file `XXXX.mdx` (e.g., `0693.mdx`):
+Create a new file `songs/XXXX.mdx` (e.g., `songs/0693.mdx`):
 
 ```mdx
 ---
